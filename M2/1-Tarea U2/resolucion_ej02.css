@@ -1,0 +1,57 @@
+.body{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenedor */
+    align-items: center; /* Centra verticalmente el contenedor */
+    height: 100vh; /* Altura del viewport para centrar verticalmente */
+    margin: 0; /* Elimina márgenes por defecto */
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /*background-color: black;*/
+    align-items: center; /* Centra verticalmente las cajas */
+    width: 100%; /* Ancho completo del viewport */
+    height: 100vh; /* Altura completa del viewport */
+    
+}
+
+
+.red {
+    background-color: red;
+    color: white; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 0; /* Sin margen entre las cajas */
+    width: 100px; /* Ancho de las cajas */
+    height: 100px; /* Altura de las cajas */
+    display: flex; /* Utiliza Flexbox para centrar el texto */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+}
+
+.blue {
+    background-color: blue;
+    color: white; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 0; /* Sin margen entre las cajas */
+    width: 100px; /* Ancho de las cajas */
+    height: 100px; /* Altura de las cajas */
+    display: flex; /* Utiliza Flexbox para centrar el texto */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+}
+
+.green {
+    background-color: green;
+    color: white; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 0; /* Sin margen entre las cajas */
+    width: 100px; /* Ancho de las cajas */
+    height: 100px; /* Altura de las cajas */
+    display: flex; /* Utiliza Flexbox para centrar el texto */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+}

@@ -1,31 +1,40 @@
+
 div{
     color: white;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    
-    
 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box {
+    width: 100px; /* Ancho de las cajas */
+    height: 100px; /* Altura de las cajas */
+    display: flex; /* Utiliza Flexbox para centrar el texto */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 0; /* Sin margen entre las cajas */
 }
 
 .red{
-    background-color: red;
-    width: 100px;
-    display: flex;
-    align-items: center;
+    background-color: red;    
 }
 
 .blue{
-    background-color: blue;
-    width: 100px;
-    display: flex;
-    align-items: center;
+    background-color: blue; 
 }
 
 .green{
     background-color: green;
-    width: 100px;
-    display: flex;
-    align-items: center;
 }
+
+
+
